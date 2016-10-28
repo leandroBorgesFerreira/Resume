@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_background">#ECEFF1</color>
+    <color name="buttonColor">#512DA8</color>
+    <color name="buttonSelected">#55FFFFFF</color>
+    <color name="drawer_backgroud_color">#90A4AE</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="yellow">#0F0</color>
+    <color name="cian">#00BCD4</color>
+    <color name="teal">#009688</color>
+</resources>

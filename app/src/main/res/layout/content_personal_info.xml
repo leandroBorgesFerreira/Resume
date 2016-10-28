@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/personal_info_container_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    app:cardElevation="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.simplepass.curriculo.activity.PersonalInfoActivity">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:id="@+id/container_view"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_personal_info">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="@dimen/personal_info_icon_width"
+                android:layout_height="@dimen/personal_info_icon_height"
+                android:src="@mipmap/ic_person"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="@dimen/personal_info_icon_width"
+                android:layout_height="@dimen/personal_info_icon_height"
+                android:src="@mipmap/ic_cake"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/birth_date" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="@dimen/personal_info_icon_width"
+                android:layout_height="@dimen/personal_info_icon_height"
+                android:src="@mipmap/ic_smartphone"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="@dimen/personal_info_icon_width"
+                android:layout_height="@dimen/personal_info_icon_height"
+                android:src="@mipmap/ic_place"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="@dimen/personal_info_icon_width"
+                android:layout_height="@dimen/personal_info_icon_height"
+                android:src="@mipmap/ic_email"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+                android:text="@string/email" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

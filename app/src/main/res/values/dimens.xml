@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="stroke_login_button">1dp</dimen>
+    <dimen name="stroke_login_button_loading">4dp</dimen>
+    <dimen name="personal_info_icon_height">30dp</dimen>
+    <dimen name="personal_info_icon_width">30dp</dimen>
+</resources>

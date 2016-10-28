@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">LResume</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings do menu Drawer-->
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+    <string name="drawer_item_share">COMPARTILHAR</string>
+    <string name="drawer_item_leave">SAIR</string>
+
+    <!-- Mensagem de compartilhamento do app -->
+    <string name="share_message"> Estou compartilhando um currículo em forma de aplicativo. Espero que te interesse:
+        https://play.google.com/store/apps/details?id=br.com.simplepass.curriculo </string>
+
+    <!-- Transitions -->
+    <string name="transition_ability">transitionAbility</string>
+    <string name="transition_toolbar">transitionToolbar</string>
+    <string name="transition_title">transitionTitle</string>
+
+    <!-- Activities Titles -->
+    <string name="title_activity_personal_info">Informações</string>
+    <string name="title_activity_projects">Projetos</string>
+    <string name="title_activity_academic">Escolaridade</string>
+    <string name="title_activity_tools">Ferramentas</string>
+
+    <!-- Buttons -->
+    <string name="store_button"> Visualizar </string>
+    <string name="btn_get_in">ENTRAR</string>
+
+    <!-- Academic Items -->
+    <string name="ufmg_name">UFMG - Engenharia Elétrica</string>
+    <string name="marista_name">Marista - Ensino médio</string>
+    <string name="cna_name">CNA - Inglês</string>
+    <string name="cenex_name">CENEX (UFMG) - Espanhol</string>
+
+    <!-- Resume Items -->
+    <string name="personal_info">Informações Gerais</string>
+    <string name="personal_info_comment">Quem sou eu</string>
+    <string name="made_projects">Projetos Realizados</string>
+    <string name="made_projects_comment">Um pouco da estrada</string>
+    <string name="schoolarship">Escolaridade</string>
+    <string name="schoolarship_coment">Muitos livros, muito café...</string>
+    <string name="stack">Ferramentas</string>
+    <string name="stack_comment">Bibliotecas, IDEs, Softwares... O que eu uso para desenvolver</string>
+
+    <!-- Personal info -->
+    <string name="name">Leandro Borges Ferreira</string>
+    <string name="birth_date">18/02/1990</string>
+    <string name="phone">+55 31 99188 9992</string>
+    <string name="address">Belo Horizonte - MG - Brasil (Brazil)</string>
+    <string name="email">lehen01@gmail.com</string>
+
+    <!-- Login Activity -->
+    <string name="my_resume">Meu Currículo</string>
+
+    <!-- Projects -->
+    <string name="simplepass_name">Simple Pass (Java)</string>
+    <string name="simplepass_description">Aplicativo desenvolvido para empresa Velox Park.
+                Esse aplicativo tem o objetivo de proporcionar ao usuário uma maneira de visualizar a localização
+                das vans do estacionamento e oferece a possibilidade fazer um pedido de van.</string>
+    <string name="simplepass_date">2015</string>
+
+    <string name="simplefuncionario_name">Simple Pass (Java)</string>
+    <string name="simplefuncionario_description">"Simple Funcionario , é um software desenvolvido para rastreamento dos motoristas de van com dispositivo mobile ativado no modo localização GPS. O funcionário recebe uma lista que é atualizada conforme novos passageiros pedem vans. O funcionário pode ser avaliado pelas corridas, o aplicativo informa tempo de espera automático do usuário por meio do rastreamento GPS do funcionário.</string>
+    <string name="simplefuncionario_date">2015</string>
+
+    <string name="simplecaixa_name">Simple Caixa (Java)</string>
+    <string name="simplecaixa_description">Simple Caixa, é um software de gestão de frota, ele atua gerindo os clientes
+        e funcionários da empresa e. Ele recebe informações enviadas pelo Simple Funcionario
+        e SimplePass, realiza cadastro dos clientes, serviços adicionais pedidos por eles,
+        gera relatórios e avaliações mensais dos funcionários e clientes.</string>
+    <string name="simplecaixa_date">2015</string>
+
+    <string name="cadevan_name">CadeVan (Java)</string>
+    <string name="cadevan_description">CadeVan, é um software desenvolvido para a localização do motorista diminuindo a
+        frustração do tempo de espera e facilitando a integração com o motorista</string>
+    <string name="cadevan_date">2015</string>
+
+    <string name="cademotorista_name">CadeVanMotorista (Java)</string>
+    <string name="cademotorista_desciption">CadeVanMotorista, é um software desenvolvido para rastreamento dos motoristas de van
+        com dispositivo mobile ativado no modo localização GPS. Ele
+        informa os alunos e contratantes do serviço de van do tempo de espera para a chegada da van.</string>
+    <string name="cademotorista_date">2015</string>
+
+    <string name="cadevan_swift_name">CadeVan (Swift)</string>
+    <string name="cadevan_swift_description">Em Breve! Este aplicativo está na fase final de desenvolvimento</string>
+    <string name="cadevan_swift_date">2015</string>
+
+    <string name="smartphone_detection_name">Sistema de Detecção de Smartphone</string>
+    <string name="smartphone_detection_description">Aplicativo para detecção de smartphone via bluetooth e Beacons</string>
+    <string name="smartphone_detection_date">2015</string>
+
+    <string name="blueled_name">Controle de luminosidade por PWM</string>
+    <string name="blueled_description">Sistema para controle de luminosidade de lâmpada de LED via PWM. Smartphone se conecta com modo microcontrolador através de
+        bluetooth. Microcontrolador envia comando para driver que realiza controle de corrente</string>
+    <string name="blueled_date">2014</string>
+
+
+    <!-- Stack / Tools -->
+    <string name="english">Inglês</string>
+    <string name="english_description">Fluente. Formado. Intercâmbio de 4 meses para EUA</string>
+
+    <string name="spanish">Espanhol</string>
+    <string name="spanish_description">2 anos de estudos no Cenex (UFMG)</string>
+
+    <string name="java">Java</string>
+    <string name="java_description">Linguagem de programação</string>
+
+    <string name="swift">Swift</string>
+    <string name="swift_description">Linguagem de programação</string>
+
+    <string name="spring">Spring Framework</string>
+    <string name="spring_description">Injeção de dependências no server-side em Java</string>
+
+    <string name="swagger">Swagger</string>
+    <string name="swagger_description">Geração automática de documentação</string>
+
+    <string name="rest_clients">Volley, Retrofit e Alamofire</string>
+    <string name="rest_clients_description">Libs para consumo de webservices na arquitetura REST (Android e iOS - Swift)</string>
+
+    <string name="butterknife">Butterknife</string>
+    <string name="butterknife_description">Lib para injeção de views em Android</string>
+
+    <string name="realm">Realm</string>
+    <string name="realm_description">Lib para camada de persistência. Substituto de ORMs baseados em
+        SQLite (Android) e Datacore (iOS)</string>
+
+    <string name="testing">JUnit e Robolectric</string>
+    <string name="testing_description">Robolectric simula o sistema Android e roda ele na JVM para
+        que não seja necessário a utilização de simuladores e aparelhos reais, tornando TDD muito mais rápido</string>
+
+    <string name="push_notification">GCM, APNS e pushy.me</string>
+    <string name="push_notification_description">Sistemas para envio de push notifications</string>
+
+    <string name="json_libs">GSON e SwiftJSON</string>
+    <string name="json_libs_description">Serialização de deserialização de objetos JSON</string>
+
+    <string name="git">GIT, BitBucket</string>
+    <string name="git_description">Sistema para controle de versão</string>
+
+    <string name="html">HTML</string>
+    <string name="html_description">Criação de sites</string>
+
+    <string name="css">CSS</string>
+    <string name="css_description">Estilização de sites criados</string>
+
+    <string name="php">PHP</string>
+    <string name="php_description">Criação de sites</string>
+    <string name="title_activity_rx">RxActivity</string>
+
+</resources>
